@@ -1,0 +1,17 @@
+from turtle import*
+shape('blank')
+pensize(5)
+for i in range(2):
+    forward(150)
+    right(90)
+    fd(100)
+    right(90)
+pensize(1)
+pencolor("red")
+penup()
+goto(75,-80)
+pendown()
+fillcolor("red")
+begin_fill()
+circle(30)
+end_fill()
